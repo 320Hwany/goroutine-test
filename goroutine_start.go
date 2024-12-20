@@ -18,7 +18,7 @@ func main() {
 
 	waitGroup.Wait()
 	elapsed := time.Since(start)
-	fmt.Printf("걸린 시간: %s\n", elapsed)
+	fmt.Printf("elapsed: %s\n", elapsed)
 }
 
 func printHelloWithGoroutine() {
